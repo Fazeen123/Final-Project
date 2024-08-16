@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Item-containor{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.Image-containor{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+.Image-containor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+button{
+    margin: 10px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    font-size: 11px;
+    color: rgb(65, 39, 5);
+    cursor: pointer;
+    background-color: rgb(249, 239, 225);
+    transition: 0.4s all linear;
+}
+button:hover{
+    background-color: rgb(251, 217, 172);
+}
+.remove-btn{
+    background-color: red;
+    color: azure;
+}
+
+.remove-btn:hover{
+    background-color: rgb(169, 7, 7);
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Header-containor{
+    background-color: rgb(251, 237, 218);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.logo-containor{
+    border: 1px solid rgb(77, 45, 4);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+.Navbar  li{
+    margin: 5px 10px;
+    padding: 5px ;
+    list-style: none;
+}
+.Navbar li .Nav-item{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(74, 43, 3);
+    font-size: 18px;
+    transition: 0.4s all linear;
+}
+.Navbar li .Nav-item:hover{
+    color: rgba(74, 43, 3,0.6);
+
+}
+.Shop-logo{
+    text-decoration: none;
+    color: rgb(74, 43, 3);
+}
+.FaShoppingCart{
+    margin: 0px 5px;
+}
+.Navbar-left-containor{
+    display: flex;
+    width: 270px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 20px;
+    list-style: none;
+}
+.Nav-item{
+    text-decoration: none;
+    color: rgb(64, 38, 3);
+    display: flex;
+    align-items: center;
+    transition: 0.4s all linear;
+}
+.Nav-item:hover{
+    color: rgba(64, 38, 3,0.7);
+}
+.FaUserCircle{
+    margin: 0px 5px;
+    height:23px;
+    width: 23px;
+    color: rgba(74, 43, 3,0.8);
+
+}
+.account-btn{
+    background-color: rgb(247, 218, 180);
+    color: rgba(74, 43, 3 ,0.7);
+    padding: 5px 15px 5px 10px;
+    border: 1px solid rgb(74, 43, 3);
+    border-radius: 20px;
+
+}
+.FaUserCircle:hover{
+    color: rgb(74, 43, 3);
+}
+.account-btn:hover{
+    background-color: rgba(248, 153, 29, 0.7);
+    color: rgb(74, 43, 3);
+}

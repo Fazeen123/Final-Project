@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main-fouth-home-containor{
+    width: 100vw;
+    min-height: 550px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.fourth-home-heading-containor{
+    width: 100%;
+    padding: 20px;
+    padding-left: 200px;
+    font-family: 'poppins';
+    font-size: 36px;
+    color: rgb(66, 39, 3);
+}
+.fourth-home-content-containor{
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    margin: 10px 25px 10px 10px;
+    background-color: rgb(247, 224, 194);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Review-containor{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.customer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.star-containor{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.google-icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.customer-name{
+    font-family: 'poppins';
+    font-size: 14px;
+    padding-left: 20px;
+}
+.customer-review{
+    
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    font-family: 'poppins';
+    font-size: 13px;
+    text-align: justify;
+    overflow: hidden;
+    color: rgb(65, 38, 4);
+    background-color: rgba(225, 238, 250,0.8);
+}
+.hide-slide{
+    display: none;
+}
+.left-arrow-review, .right-arrow-review{
+    height: 30px;
+    width: 30px;
+    Margin :20px;
+}
