@@ -35,6 +35,7 @@ const Header = () => {
           </li>
           <li>
             <Link to={"/Account"} className='Nav-item account-btn'><FaUserCircle className='FaUserCircle' />Account</Link>
+            
           </li>          
         </ul>
 

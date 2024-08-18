@@ -91,3 +91,34 @@
     background-color: rgba(248, 153, 29, 0.7);
     color: rgb(74, 43, 3);
 }
+
+@media screen and (max-width:950px) {
+    
+    .Header-containor{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: pink;
+    }
+    .Navbar-containor{
+        background-color: aqua;
+    }
+    .Nav-item{
+        font-size: 15px;
+    }
+    .Navbar{
+        margin-left: 5px;
+        padding: 10px ;
+    }
+    .Navbar > li{
+        background-color: orange;
+        margin: 5px;
+    }
+    .Navbar > li >.Nav-item{
+        color: red;
+        font-size: 15px;
+    }
+    .Navbar-left-containor{
+        background-color: yellow;
+        margin: 0px;
+    }
+}

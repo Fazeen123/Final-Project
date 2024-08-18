@@ -13,6 +13,8 @@ import Faq from './FAQ/Faq.jsx'
 import {Provider} from 'react-redux'
 import {Store} from './Store/Store.js'
 import Footer from './Footer.jsx'
+import SigupPage from './SigupPage.jsx'
+import JobForm from './Job Application Form/JobForm.jsx'
 
 const App = () => {
   const [cart,setCart]=useState([]);
@@ -30,6 +32,8 @@ const App = () => {
       <Route path='/CartView' element={<CartView />}/>
       <Route path='/Account' element={<Account/>}/>
       <Route path='/Faq Page/' element={<Faq />} />
+      <Route path='/Signup' element={<SigupPage/>}/>
+      <Route path='/Job Form' element={<JobForm />} />
      </Routes>
      <Footer/>
      <footer>All right reserved for Me @2024</footer>
