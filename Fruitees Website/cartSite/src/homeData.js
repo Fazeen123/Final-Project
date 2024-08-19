@@ -44,19 +44,19 @@ export const datas = [
         {"id":1,
             "url":"/Images/juice.png",
             "title":"Juices",
-            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos facilis libero odit amet a velit repellat quod ratione."
+            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos."
         },{"id":2,
             "url":"/Images/apple-pie.png",
             "title":"Bake foods",
-            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos facilis libero odit amet a velit repellat quod ratione."
+            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos."
         },{"id":3,
             "url":"/Images/ice-cream (2).png",
             "title":"Ice cream salad",
-            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos facilis libero odit amet a velit repellat quod ratione."
+            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos."
         },{"id":4,
             "url":"/Images/milkshake.png",
             "title":"Fruit milk shake",
-            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos facilis libero odit amet a velit repellat quod ratione."
+            "describe":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eos."
         }
     ]
 

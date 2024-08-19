@@ -45,7 +45,7 @@
     height: 100%;
 }
 .second-home-content-detail-containor{
-    width: 300px;
+    
     text-align: center;
     overflow: hidden;
     font-family: 'Poppins';
@@ -55,4 +55,25 @@
 .sc-item-title{
     font-family: 'Poppins';
     padding: 5px;
+}
+
+@media screen and (max-width:900px) {
+
+    .second-home-content-containor{
+        padding: 10px;
+        width: 250px;
+    }
+
+    .second-home-content-image-containor,.second-home-content-image{
+        
+        width: 70px;
+        height: 80px;
+    }
+    .sc-item-title{
+        font-size: 14px;
+    }
+    .second-home-content-detail-containor{
+        font-size: 12px;
+        text-align: center;
+    }
 }

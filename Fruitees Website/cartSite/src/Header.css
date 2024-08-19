@@ -25,7 +25,7 @@
 .Navbar{
     display: flex;
     flex-direction: row;
-    padding: 10px 20px;
+    padding: 10px ;
 }
 .Navbar  li{
     margin: 5px 10px;
@@ -52,11 +52,10 @@
 }
 .Navbar-left-containor{
     display: flex;
-    width: 270px;
+    width: 300px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
-    margin: 10px 20px;
     list-style: none;
 }
 .Nav-item{
@@ -91,34 +90,109 @@
     background-color: rgba(248, 153, 29, 0.7);
     color: rgb(74, 43, 3);
 }
-
+.burger-menu-icon{
+    display: none;
+}
+.Cart-view-2{
+    display: none;
+}
 @media screen and (max-width:950px) {
     
     .Header-containor{
         display: flex;
         flex-wrap: wrap;
-        background-color: pink;
+        justify-content: space-between;
+        /* background-color: pink; */
     }
     .Navbar-containor{
-        background-color: aqua;
+        /* background-color: aqua; */
+        display: flex;
+        flex-wrap: wrap;
     }
     .Nav-item{
         font-size: 15px;
+        padding: 0px;
     }
     .Navbar{
         margin-left: 5px;
-        padding: 10px ;
+        padding: 10px 0px;
     }
     .Navbar > li{
-        background-color: orange;
+        /* background-color: orange; */
         margin: 5px;
     }
     .Navbar > li >.Nav-item{
-        color: red;
+        /* color: red; */
         font-size: 15px;
     }
     .Navbar-left-containor{
-        background-color: yellow;
+        /* background-color: yellow; */
+        margin: 0px;;
+        width: 150px;
+    }
+    .account-btn{
+        display: none;
+    }
+
+    .burger-menu-icon{
+        display: flex;
+    }
+    .cart-view-1{
+        display: none;
+    }
+    .Cart-view-2{
+        display: flex;
+        display: flex;
+        gap: 5px;
         margin: 0px;
     }
+}
+
+@media screen and (max-width:800px) {
+    .Header-containor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* background-color: pink; */
+    }
+    .Navbar-containor{
+        /* background-color: aqua; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Nav-item{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .Navbar{
+        margin-left: 5px;
+        padding: 10px 0px;
+    }
+    .Navbar > li{
+        /* background-color: orange; */
+        margin: 5px;
+    }
+    .Navbar > li >.Nav-item{
+        /* color: red; */
+        font-size: 15px;
+    }
+    .Navbar-left-containor{
+        /* background-color: yellow; */
+        margin: 0px;;
+        width: 150px;
+    }
+    .account-btn{
+        display: none;
+    }
+
+    .burger-menu-icon{
+        display: flex;
+    }
+    .cart-view-1{
+        display: none;
+    }
+    .Cart-view-2{
+        display: none;
+    }
+    
 }

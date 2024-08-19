@@ -2,7 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Header.css'
 import {FaShoppingCart} from 'react-icons/fa'
-import {FaUserCircle} from 'react-icons/fa'
+import {FaUserCircle,FaBars} from 'react-icons/fa'
+
 
 const Header = () => {
   return (
@@ -31,11 +32,12 @@ const Header = () => {
         <div>  
         <ul className='Navbar-left-containor'>
           <li>
-          <Link to={"/CartView"} className='Nav-item'><FaShoppingCart className='FaShoppingCart'/>Cart View</Link>
+          <Link to={"/CartView"} className='Nav-item cart-view-1'><FaShoppingCart className='FaShoppingCart'/>Cart View</Link>
+          <Link to={"/CartView"} className='Nav-item Cart-view-2'><FaShoppingCart className='FaShoppingCart'/>Cart </Link>
           </li>
           <li>
             <Link to={"/Account"} className='Nav-item account-btn'><FaUserCircle className='FaUserCircle' />Account</Link>
-            
+            <FaBars className='burger-menu-icon' />
           </li>          
         </ul>
 

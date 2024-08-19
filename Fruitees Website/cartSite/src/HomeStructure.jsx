@@ -42,7 +42,7 @@ const HomeStructure = () => {
         <div className='button-indicator-containor'>
         {
             images.map((_,index)=>
-                <button key={index} className={currentSlide==index ? "curr-indicator":"curr-indicator blur-indicator"} onClick={()=> setCurrentSlide(index)}></button>
+                <div key={index} className={currentSlide==index ? "curr-indicator":"curr-indicator blur-indicator"} onClick={()=> setCurrentSlide(index)}></div>
             )
         }
         </div>

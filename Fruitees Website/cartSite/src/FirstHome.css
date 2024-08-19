@@ -15,8 +15,9 @@
 .first-half-fh{
     width: 65%;
     height: 550px;
+    border-radius: 15px;
     background-color: antiquewhite;
-    margin: 10px 50px;
+    margin: 10px 30px;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
@@ -72,4 +73,32 @@
     height: 20px;
     width: 15px;
     opacity: 0.8;
+}
+
+@media screen and (max-width:900px) {
+    .main-first-content-home{
+        background-color: pink;
+        width: 100vw;
+        height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-half-fh{
+        width: 50%;
+        height: 500px;
+        padding: 20px;
+    }
+    .slogan-1{
+        font-size: 18px;
+    }
+    .slogan-2{
+        width: 280px;
+        font-size: 32px;
+    }
+    .check-out-btn{
+        width: 130px;
+        padding: 5px 10px
+    }
+    
 }
