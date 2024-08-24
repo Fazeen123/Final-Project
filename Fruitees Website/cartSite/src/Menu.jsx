@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ItemList from "./data.json";
 import MenuStructure from "./MenuStructure";
 import "./Menu.css";
@@ -7,6 +7,10 @@ import Searchbar from "./Searchbar";
 
 const Menu = () => {
   const [Items, setItems] = useState(ItemList);
+  
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
 
   // console.log(Items);
   return (

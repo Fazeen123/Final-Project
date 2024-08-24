@@ -3,7 +3,21 @@
     padding: 0px;
     margin: 0px;
 }
+.Cart-main-containor{
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-list-containor-CV{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .Item-containor-CV{
+    width: 90%;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -11,6 +25,7 @@
     border: 1px solid rgb(59, 35, 5);
     margin:5px;
     border-radius: 10px;
+    background-color: orange;
 }
 .Image-containor-CV{
     height: 100px;
@@ -45,21 +60,19 @@
     font-weight: 400;
     padding: 10px;
 }
-.btn-containor-CV .Add-num-CV{
+/* .btn-containor-CV .Add-num-CV{
     height: 30px;
-    width: 30px;
+    width: 100px;
     margin-left: 20px;
+    background-color: yellow;
     padding: 0px;
      font-size: 18px;
      border-radius: 0px;
      border: 2px solid rgb(49, 29, 3);
-}
-.remove-btn{
+} */
+.btn-containor-CV .remove-btn{
+    width: 100px;
     background-color: red;
-    color: white;
-}
-.remove-btn:hover{
-    background-color: rgb(169, 7, 7);
 }
 .remove-btn:hover{
     background-color: rgb(169, 7, 7);
@@ -77,10 +90,4 @@
     font-size: 20px;
     font-family: 'poppins';
     color: rgba(147, 85, 4, 0.6);
-}
-.Cart-main-containor{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }

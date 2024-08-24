@@ -21,8 +21,8 @@
     
 }
 button{
-    margin: 10px;
-    padding: 7px;
+    margin: 0px;
+    padding: 10px;
     border-radius: 15px;
     border: none;
     outline: none;
@@ -36,11 +36,19 @@ button{
 button:hover{
     background-color: rgb(251, 217, 172);
 }
-.remove-btn{
+.remove-btn-menu{
+    width: 100px;
     background-color: red;
     color: azure;
 }
 
-.remove-btn:hover{
+.remove-btn-menu:hover{
     background-color: rgb(169, 7, 7);
+}
+.cart-icon{
+    color: rgb(55, 35, 7);
+    transition: 0.2s all linear;
+}
+.cart-icon:hover{
+    color: rgb(102, 60, 4);
 }

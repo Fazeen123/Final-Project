@@ -38,7 +38,7 @@ const fourthHome = () => {
   return (
     <>
       <div className='main-fouth-home-containor'>
-        <div className='fourth-home-heading-containor'>Customers reviews<div className='underline'></div></div>
+        <div className='fourth-home-heading-containor'>Customers reviews<div className='underline underline-cr'></div></div>
         <div className='fourth-home-content-containor'>
           <FaArrowAltCircleLeft className='left-arrow-review' onClick={LeftArrowHandler}/>
           {

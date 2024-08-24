@@ -15,6 +15,8 @@ import {Store} from './Store/Store.js'
 import Footer from './Footer.jsx'
 import SigupPage from './SigupPage.jsx'
 import JobForm from './Job Application Form/JobForm.jsx'
+import Contact from './contact.jsx'
+
 
 const App = () => {
   const [cart,setCart]=useState([]);
@@ -27,16 +29,17 @@ const App = () => {
      <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/Menu' element={<Menu />}/>
-      <Route path='/About us' element={<AboutUs />} />
+      <Route path='/About-us' element={<AboutUs />} />
       <Route path='/Services' element={<Services/>}/>
       <Route path='/CartView' element={<CartView />}/>
       <Route path='/Account' element={<Account/>}/>
-      <Route path='/Faq Page/' element={<Faq />} />
+      <Route path='/Faq-Page' element={<Faq />} />
       <Route path='/Signup' element={<SigupPage/>}/>
-      <Route path='/Job Form' element={<JobForm />} />
+      <Route path='/Job-Form' element={<JobForm />} />
+      <Route path='/Contact'  element={<Contact/>}/>
      </Routes>
      <Footer/>
-     <footer>All right reserved for Me @2024</footer>
+     <footer className='footer'>All right reserved for Me @2024</footer>
     </BrowserRouter>
 
     </cartContext.Provider>

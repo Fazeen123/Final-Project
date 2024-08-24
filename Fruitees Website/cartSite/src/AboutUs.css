@@ -3,3 +3,24 @@
     margin: 0px;
     padding: 0px;
 }
+.aboutus-main-containor{
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.heading{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(68, 40, 4);
+}
+
+@media screen  and (max-width:900px){
+
+    .heading{
+        font-size: 36px;
+    }
+    
+}

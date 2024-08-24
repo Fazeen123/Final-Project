@@ -47,7 +47,9 @@
     display: flex;
     align-items: center;
     position: relative;
-
+    transition: 0.4s all ease;
+    animation-name: Intro-picture-animation;
+    animation-duration: 1.7s;
 }
 .drink-bottle-image-containor{
     height: 450px;
@@ -71,7 +73,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;    
+    padding: 10px; 
+    transition: 0.4s all ease; 
+    animation-name: right-side-animation;
+    animation-duration: 2s;  
 }
 .frutiees-detail-containor{
     display: flex;
@@ -134,9 +139,10 @@
 @media screen and (max-width:900px) {
     .main-third-home-containor{
         padding: 10px;
+        padding-left: 0px;
     }
     .third-home-heading{
-        margin: 10px 20px;
+        margin: 10px 30px;
         font-size: 28px;
     }
     .leftside-third-home{
@@ -158,14 +164,17 @@
         bottom: 0px;
         left: 0px;
         height: 80%;
+        width: 170px;
     }
     .drink-bottle-image-containor{
-        width: 200px;
+        width: 220px;
         height: 250px;
         position: absolute;
         left: 20px;
     }
     .drink-bottle-image-containor > img {
+        
+        border-radius: 0px 20px 20px 0px;
         width: 200px;
         height: 250x;
     }
@@ -181,4 +190,27 @@
         margin: 10px;
     }
 
+}
+
+@keyframes Intro-picture-animation{
+
+    from{
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes right-side-animation{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;    
+    }
 }

@@ -79,3 +79,20 @@
     width: 30px;
     Margin :20px;
 }
+
+@media screen and (max-width:900px) {
+
+    .fourth-home-heading-containor{
+        font-size: 28px;
+    }
+    .fourth-home-heading-containor{
+        width: 100%;
+        padding: 20px;
+        padding-left: 40px;
+        font-family: 'poppins';
+        color: rgb(66, 39, 3);
+    }
+    .underline-cr{
+        width: 200px;
+    }
+}

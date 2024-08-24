@@ -32,6 +32,13 @@
     height: 400px;
     margin-left: 40px;
     margin-right: 20px;
+    animation: imgSlider-imageAnimation;
+    animation-duration: 2s;
+    
+}
+.hs-image:hover{
+    box-shadow: 2px 2px 5px 0px rgb(156, 154, 154);
+
 }
 .image-detail-containor{
     width: 100%;
@@ -257,5 +264,26 @@
         border-radius: 0px;
         width: 15px;
         height: 3px;
+    }
+}
+
+@keyframes imgSlider-imageAnimation{
+    from{
+        transform: translateX(-70%);
+        opacity: 0px;
+    }
+    to{
+        transform: translateX(5%);
+    }
+}
+
+@keyframes imgSlider-imageAnimation-up{
+    from{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateY(10px);
+        opacity: 1;
     }
 }

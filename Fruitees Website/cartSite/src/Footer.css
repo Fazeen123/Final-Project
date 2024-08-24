@@ -73,3 +73,55 @@
     
     color: rgba(248, 232, 213,1);
 }
+.up-icon-containor{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up-direction-icon{
+    height: 30px;
+    border-radius: 45%;
+    padding: 5px;
+    width: 30px;
+    color: rgb(91, 56, 11);
+    background-color: rgb(230, 222, 211);
+    border: 1px rgb(233, 207, 173) groove;
+    transition: 0.5s all ease;
+}
+.up-direction-icon:hover{
+    background-color: rgba(234, 143, 25,0.7);
+    color: rgb(247, 238, 226);
+}
+
+@media screen and (max-width:900px){
+
+    .footer-contents{
+        font-size: 14px;
+        width: 460px;
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        
+    }
+    .coulmn-1 ul{
+        width: 120px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .coulmn-1 ul li{
+        padding: 10px  5px;
+    }
+    .footer-content-3{
+        display: none;
+    }
+    .social-connections{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .social-connections .social-icons{
+        height: 20px;
+    }
+}

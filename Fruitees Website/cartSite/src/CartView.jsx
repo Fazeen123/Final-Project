@@ -27,13 +27,16 @@ const CartView = () => {
   const RemoveFromCart = (index) =>{
     dispatch(RemoveItem(index))
   }
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
 
   // const addItemNum = (e)=>{
   //   setCart(cart.map((c)=>(c.id===e.id ? [...cart,c.num+1]:cart)));
   // }
   return (
     <div className='Cart-main-containor'>
-    <div className='cart-view-heading'>Cart List</div>
+    <div className='cart-view-heading'  id='top'>Cart List</div>
     {ShowSelectedItems && ShowSelectedItems.length > 0? ShowSelectedItems.map((product,index)=>(<div className='cart-list-containor-CV' key={index}>
       <div className='Item-containor-CV'>
         <div className='Image-containor-CV'><img src={product.loc} alt="" /></div>
@@ -43,7 +46,7 @@ const CartView = () => {
           <h4>Number of Product : {product.num}</h4>
         </div>
         <div className='btn-containor-CV'>
-          <button onClick={()=> RemoveFromCart(product.id)} className='remove-btn' >Remove Item</button>          
+          <button onClick={()=> RemoveFromCart(product.id)} className='remove-btn' >Remove</button>          
           {/* <button className='Add-num-CV' onClick={addItemNum}>+</button> */}
         </div>
       </div>

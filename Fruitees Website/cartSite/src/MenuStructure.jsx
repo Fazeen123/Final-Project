@@ -4,6 +4,8 @@ import { cartContext } from './ContextCreation'
 import {useDispatch,useSelector} from 'react-redux'
 import {AddItem} from './Store/Slices/CartSlice'
 import { RemoveItem } from './Store/Slices/CartSlice'
+import {FaShoppingCart} from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 
 const MenuStructure = ({product}) => {
   const dispatch = useDispatch();
@@ -30,8 +32,9 @@ const MenuStructure = ({product}) => {
     <p>Price : Rs.{product.price}</p>
     <h5>{product.type}</h5>
     {
-      ShowSelectedItems.includes(product)?(<button className='remove-btn' onClick={()=>removeItemFromCard(product.id)}>Remove from item</button>):(<button onClick={addItemToCard}>Add to cart</button>)
+      ShowSelectedItems.includes(product)?(<button className='remove-btn-menu' onClick={()=>removeItemFromCard(product.id)}>Remove </button>):(<button onClick={addItemToCard}>Add to cart</button>)
     }
+    <div> <Link to='/CartView'> <FaShoppingCart className='cart-icon' /> </Link> </div>
     </div>
     </>
   )
