@@ -192,6 +192,66 @@
 
 }
 
+@media screen and (max-width:550px) {
+    .main-third-home-containor{
+        width: 100%;
+        /* background-color: orange; */
+    }
+    .third-home-heading{
+        font-size: 18px;
+    }
+    .third-home-content-contaonor{
+        padding: 0px;
+        /* background-color: pink; */
+    }
+    .leftside-third-home{
+        width: 40%;
+    }
+    .intro-picture-background{
+        width: 99%;
+        position: relative;
+    }
+    .drink-bottle-image-containor{
+        position: absolute;
+        left: 0px;
+        height: 150px;
+        width: 120px;
+    }
+    .drink-bottle-image-containor .drink-bottle-image{
+        width: 120px;
+        height: 150px;
+    }
+    .rightside-third-home{
+        width: 65%;
+    }
+    .rightside-third-home-content{
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+    }
+    .frutiees-detail-containor{
+        width: 100%;
+    }
+    .frooties-details-heading{
+        font-size: 16px;
+        margin: 0px;
+        
+    }
+    .frutiees-details{
+        width: 100%;
+        font-size: 11px;
+    }
+    .mission-containor{
+        width: 100;
+    }
+    .mission-heading{
+        font-size: 16px;
+    }
+    .mission-content{
+        font-size: 11px;
+    }
+}
+
 @keyframes Intro-picture-animation{
 
     from{

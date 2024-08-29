@@ -56,3 +56,11 @@
     align-items: center;
     
 }
+
+@media screen and (max-width:450px) {
+    
+    .serach-bar{
+        width: 300px;
+    }
+    
+}

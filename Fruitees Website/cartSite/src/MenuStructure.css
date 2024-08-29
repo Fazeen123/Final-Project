@@ -52,3 +52,50 @@ button:hover{
 .cart-icon:hover{
     color: rgb(102, 60, 4);
 }
+
+@media screen and (max-width:550px) {
+    .Item-containor{
+        margin: 0px;
+        /* background-color: orange; */
+    }
+    .Item-containor{
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 150px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Image-containor{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    .Image-containor img{
+        border-radius: 10px;
+    }
+    .Item-containor h4, .Item-containor h5{
+        font-size: 12px;
+    }
+    .Item-containor p{
+        font-size: 12px;
+    }
+    .remove-btn-menu,.add-btn-menu{ 
+            margin: 0px;       
+            width: 80px;
+            font-size: 11px;        
+    }
+    .btns-containor{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 10px;
+    }
+    
+}

@@ -3,10 +3,14 @@
     padding: 0px;
     margin: 0px;
 }
+.App-Main-containor{
+    width: 100vw;
+}
 body{
     width: 100vw;
     overflow-x: hidden;
     background-color: antiquewhite;
+    margin: 0px;
 }
 
 @media screen and (max-width:900px) {
@@ -19,5 +23,6 @@ body{
         align-items:baseline;
         padding-top: 5px;
         font-size: 8px;
+        margin: 0px;
     }    
 }

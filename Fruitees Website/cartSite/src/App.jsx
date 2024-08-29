@@ -21,7 +21,7 @@ import Contact from './contact.jsx'
 const App = () => {
   const [cart,setCart]=useState([]);
   return (
-    <>
+    <div className='App-Main-containor'>
     <Provider store={Store} >
     <cartContext.Provider value={{cart,setCart}}>
     <BrowserRouter>
@@ -44,7 +44,7 @@ const App = () => {
 
     </cartContext.Provider>
     </Provider>
-    </>
+    </div>
   )
 }
 

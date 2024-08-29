@@ -4,7 +4,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+.Main-Containor{
+    width: 100vw;
+}
 .Header-containor{
     background-color: rgb(251, 237, 218);
     width: 100vw;
@@ -15,6 +17,7 @@
     z-index: 100;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
 }
 .logo-containor{
@@ -124,9 +127,10 @@
 }
 
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1120px) {
     
     .Header-containor{
+        width: 100vw;
         position: relative;
         display: flex;
         flex-wrap: wrap;

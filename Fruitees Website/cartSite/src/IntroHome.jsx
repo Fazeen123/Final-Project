@@ -19,7 +19,7 @@ const IntroHome = () => {
                </div>
                <div className='mission-containor'>
                    <div className='mission-heading'>Our Mission</div>
-                   <div className='mission-containor'>Providing a healthy fruit product for valuable amount. Serving them with kind through every ways.Achieving best product in national wide.</div>
+                   <div className='mission-content'>Providing a healthy fruit product for valuable amount. Serving them with kind through every ways.Achieving best product in national wide.</div>
                </div>
                </div>
             </div>

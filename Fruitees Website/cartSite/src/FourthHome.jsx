@@ -79,7 +79,7 @@ const fourthHome = () => {
           }
           {
             reviewArr && reviewArr.length ? reviewArr.map((item,index)=>{
-              return <div className={slidFour===index ? 'Review-containor':'Review-containor hide-slide'} key={index}>
+              return <div className={slidFour===index ? 'Review-containor Review-containor-4':'Review-containor hide-slide'} key={index}>
               <div className='customer-details'>
                 <div className='customer-name'>{item.name}</div>
                 <div className='google-logo'><img src={google} alt="Google" className='google-icon'/></div>

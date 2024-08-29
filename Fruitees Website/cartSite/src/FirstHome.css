@@ -109,6 +109,38 @@
     
 }
 
+@media screen and (max-width:450px) {
+    .first-half-fh{
+        width: 50%;
+        margin: 10px 20px;
+        padding-left: 0px;
+    }
+    .slogan-2{
+        width: 100%;
+        font-size: 24px;
+    }
+    .check-out-btn{
+        display: flex;
+        align-items: center;
+        width: 100px;
+        font-size: 10px;
+        padding: 5px 10px
+    }
+    .second-half-fh{
+        width: 50%;
+        height: 500px;
+        background-image:  url('/Images/juiceStall.jpg');
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        animation: rightSideAnimation;
+        animation-duration: 2.0s;
+        
+    }
+    
+}
+
 @keyframes SlideAnimation{
     from{
         transform: translateX(-95%);

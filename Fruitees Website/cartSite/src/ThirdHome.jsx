@@ -6,7 +6,7 @@ const ThirdHome = () => {
   return (
     <>
     <div className='main-third-content-containor'>
-      <div className='third-content-heading-containor'><div className='blog-heading'>Blogs</div><div className='underline-blog'></div></div>
+      <div className='third-content-heading-containor'><div className='blog-heading'>Blogs<div className='underline-blog'></div></div></div>
       <div className='third-content-containor'>
         <div className='leftBlog blog-1'><div className='blog-1-details'>Fazeen and friends in Frutiees Blog</div></div>
         <div className='rightBlog'>

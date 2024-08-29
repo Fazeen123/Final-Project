@@ -31,10 +31,10 @@ const MenuStructure = ({product}) => {
     <h4>{product.item}</h4>
     <p>Price : Rs.{product.price}</p>
     <h5>{product.type}</h5>
+    <div className='btns-containor'>
     {
-      ShowSelectedItems.includes(product)?(<button className='remove-btn-menu' onClick={()=>removeItemFromCard(product.id)}>Remove </button>):(<button onClick={addItemToCard}>Add to cart</button>)
-    }
-    <div> <Link to='/CartView'> <FaShoppingCart className='cart-icon' /> </Link> </div>
+      ShowSelectedItems.includes(product)?(<button className='remove-btn-menu' onClick={()=>removeItemFromCard(product.id)}>Remove </button>):(<button className='add-btn-menu' onClick={addItemToCard}>Add to cart</button>)
+    } <Link to='/CartView'> <FaShoppingCart className='cart-icon' /> </Link> </div>
     </div>
     </>
   )

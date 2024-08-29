@@ -47,18 +47,18 @@ const Header = () => {
       </div>
       <div className={SideMenu ? 'Side-menu-containor' : 'hide-SideBar'}   > 
         <ul className='Side-menu'> 
-          <Link to={"/"} className='li' ><li>Home</li></Link>
-          <Link to={"/About-us"} className='li' ><li>About Us</li></Link>
-          <Link to={"/Menu"} className='li' ><li>Menu</li></Link>
-          <Link to={"/Services"} className='li' ><li>Services</li></Link>
-          <Link  to={"/Contact"} className='li'><li>Contact</li></Link>         
+          <Link to={"/"} className='li'  ><li onClick={()=> setSideMenu(!SideMenu)}  >Home</li></Link>
+          <Link to={"/About-us"} className='li' ><li onClick={()=> setSideMenu(!SideMenu)} >About Us</li></Link>
+          <Link to={"/Menu"} className='li' ><li onClick={()=> setSideMenu(!SideMenu)} >Menu</li></Link>
+          <Link to={"/Services"} className='li' ><li onClick={()=> setSideMenu(!SideMenu)} >Services</li></Link>
+          <Link  to={"/Contact"} className='li'><li onClick={()=> setSideMenu(!SideMenu)} >Contact</li></Link>         
         </ul>
         <ul className='Side-Menu-2-containor'>
-          <li className='Side-menu-2'>
+          <li className='Side-menu-2' onClick={()=> setSideMenu(!SideMenu)}>
           <Link to={"/CartView"} className='Nav-item cart-view-1'><FaShoppingCart className='FaShoppingCart'/>Cart View</Link>
           </li>
-          <li className='Side-menu-2 Side-menu-2-btn '>
-          <Link to={"/Account"} className='Nav-item account-btn'><FaUserCircle className='FaUserCircle' />Account</Link>            
+          <li className='Side-menu-2 Side-menu-2-btn ' onClick={()=> setSideMenu(!SideMenu)}>
+          <Link to={"/Account"} className='Nav-item account-btn' ><FaUserCircle className='FaUserCircle' />Account</Link>            
           </li>
         </ul>
       </div>

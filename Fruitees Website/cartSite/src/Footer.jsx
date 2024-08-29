@@ -26,7 +26,7 @@ const Footer = () => {
     }
     
   return (
-    <>
+    <div className='Main-Footer-Containor'>
         <div className='up-icon-containor'><FaAngleDoubleUp className='up-direction-icon' onClick={upClickhandler} /></div>    
         <div className='main-footer-containor'>
             <div className='footer-cafe-logo'>Shop Logo</div>
@@ -66,7 +66,7 @@ const Footer = () => {
                 Some thing content
             </div>
         </div>   
-    </>
+    </div>
   )
 }
 
