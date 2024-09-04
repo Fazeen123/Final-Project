@@ -11,8 +11,9 @@
     align-items: center;
     gap: 10px;
     padding: 20px;
-    border: 1px rgb(253, 146, 7) groove;
+    border: 1px rgb(237, 233, 228) groove;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px 0px rgb(198, 195, 195);
 }
 .searched-item-containor{
     width: 200px;
